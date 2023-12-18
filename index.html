@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoon Network</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            color: brown;
+            text-align: center;
+            font-family: 'Rubik Scribble', sans-serif;
+            font-size:70px;
+        }
+        p{
+            color: brown;
+            margin: 10px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .heading{
+            background-color: black;
+        }
+        .content{
+            background-color: brown;
+            
+        }
+        h2{
+            text-align:center;
+            font-size: 30px;
+            font-family: 'Rubik Scribble', sans-serif;
+        }
+        img{
+            border: 20px solid black;
+            border-radius: 20px;
+            margin: 30px;
+            margin-bottom: 0;
+        }
+        @media(min-width:650px){
+            .content{
+                display: grid;
+                grid-template: 1fr 1fr/ 1fr 1fr;
+                gap: 30px;
+            }
+        }
+        @media(max-width:649px){
+            .content{
+               display: grid;
+               grid-template: 1fr 1fr 1fr 1fr/ 1fr;
+               gap: 30px;
+            }
+        }
+        .container{
+            display: grid;
+            grid-template: 1fr 5fr/1fr;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Cartoon Network</h1>
+            <p>Click on below pictures....</p>
+        </div>
+        <div class="content">
+            <div class="1">
+                <a href="https://youtu.be/akZUK5SG1TU?si=ihCLha99l-36wPgN"><img src="./assets/tom and jerry.jpg" alt="tom and jerry" height="300px" /></a>
+                <h2>Tom and Jerry</h2>
+            </div>
+            <div class="2">
+                <a href="https://youtu.be/6K8DJqkRtRE?si=3tLLBwnMBaCQ0g9A"><img src="./assets/shinchan.jpg" alt="shinchan" height="300px"/></a>
+                <h2>Shinchan</h2>
+            </div>
+            <div class="3">
+                <a href="https://youtu.be/QCm7QblIbKM?si=C41pcLNwziuQmHrT"><img src="./assets/hattori.jpg" alt="ninja hattori" height="300px"/></a>
+                <h2>Ninja Hattori</h2>
+            </div>
+            <div class="4">
+                <a href="https://youtu.be/8QBZBbV8YEs?si=apRoO9SiSObaJQYd"><img src="./assets/oggy.jpg" alt="oggy and the cocroaches" height="300px"/></a>
+                <h2>Oggy and the Cockroaches</h2>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
